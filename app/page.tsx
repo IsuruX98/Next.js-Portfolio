@@ -4,6 +4,8 @@ import React from "react";
 import Education from "@/components/Education";
 import Projects from "@/components/Projects";
 import { CardHoverEffectDemo } from "@/components/ui/CardHoverEffectDemo";
+import Footer from "@/components/Footer";
+import Skills from "@/components/Skills";
 
 const Home = () => {
   return (
@@ -13,7 +15,9 @@ const Home = () => {
       <div>
         <Hero />
         <Education />
+        <Skills />
         <CardHoverEffectDemo />
+        <Footer />
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import {
   IconFolderCode,
   IconUser,
   IconCode,
+  IconBook,
 } from "@tabler/icons-react";
 export function FloatingNavDemo() {
   const navItems = [
@@ -15,9 +16,9 @@ export function FloatingNavDemo() {
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "About",
+      name: "Education",
       link: "/",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconBook className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Skills",
