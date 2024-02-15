@@ -1,10 +1,12 @@
 import React from "react";
+import image from "../assets/images/profile.png";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2 h-screen">
+    <div className="grid lg:grid-cols-2 2xl:pt-12 xl:pt-12 lg:pt-20 sm:mr-0 mr-[-80px]">
       <div className="flex flex-col justify-center">
-        <div className="flex flex-col gap-8 xl:px-36 lg:px-20 px-12">
+        <div className="flex flex-col gap-8 xl:px-36 lg:px-20 px-12 lg:pt-0 pt-32">
           <div className="text-6xl font-extrabold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
             Isuru Madusanka
             <div className="relative">
@@ -35,7 +37,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div>2</div>
+      <div className="p-16">
+        <div className="flex flex-col items-center justify-center">
+          <Image src={image} alt={"profile"} />
+        </div>
+      </div>
     </div>
   );
 };
