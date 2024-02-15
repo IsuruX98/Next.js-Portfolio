@@ -45,7 +45,7 @@ const Skills = () => {
 
       <div>
         <Marquee direction="right" speed={100} delay={5}>
-          <div className="flex md:gap-10 gap-2">
+          <div className="flex md:gap-10 gap-2 pr-5">
             <div>
               <Image
                 src={img1}
@@ -196,8 +196,9 @@ const Skills = () => {
             Tools and Environments
           </div>
         </div>
-        <div className="flex md:gap-10 gap-2">
-          <Marquee direction="left" speed={100} delay={5}>
+
+        <Marquee direction="left" speed={100} delay={5}>
+          <div className="flex md:gap-10 gap-2 pr-5">
             <div>
               <Image
                 src={img20}
@@ -269,8 +270,8 @@ const Skills = () => {
                 className="w-32 h-32 object-contain"
               />
             </div>
-          </Marquee>
-        </div>
+          </div>
+        </Marquee>
       </div>
     </div>
   );
