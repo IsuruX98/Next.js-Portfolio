@@ -9,7 +9,7 @@ export function CardHoverEffectDemo() {
           Best Projects
         </div>
       </div>
-      <HoverEffect /> {/* Pass projects array */}
+      <HoverEffect />
     </div>
   );
 }

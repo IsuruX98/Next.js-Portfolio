@@ -47,7 +47,6 @@ const Education = () => {
             <div className="md:flex items-center md:space-x-4 mb-3">
               <div className="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow md:order-1 dark:bg-gray-800">
-                  {/* You can customize the icon based on your needs */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
