@@ -19,13 +19,14 @@ const Hero = () => {
           </div>
 
           <div>
-            As a BSc (Hons) Software Engineering student at the Sri Lanka
-            Institute of Information Technology, I possess coding skills in
-            Java, Kotlin, and Javascript, along with familiarity in Springboot,
-            MERN stack, and CSS frameworks like Bootstrap5 and Tailwind. I am
-            eager to secure an internship as a software engineer to contribute
-            to meaningful projects and learn from a dynamic team, utilizing my
-            knowledge and passion for software development.
+            As an intern software engineer at CreativeHub Global, I'm pursuing a
+            BSc.Special (Hons) in Information Technology, specializing in
+            Software Engineering. At CreativeHub, I leverage ReactJS, Next.js,
+            Tailwind CSS, Bootstrap, Node.js, and Express.js to contribute to
+            diverse projects. I also engage in freelancing, enhancing my skills
+            and broadening my experience. My passion for software development
+            fuels my commitment to continuous learning and growth in this
+            dynamic field.
           </div>
           <div>
             <button className="p-[3px] relative">
