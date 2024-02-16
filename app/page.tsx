@@ -1,8 +1,7 @@
-import { FloatingNavDemo } from "@/components/ui/FloatingNavDemo";
 import Hero from "../components/Hero";
 import React from "react";
 import Education from "@/components/Education";
-import { CardHoverEffectDemo } from "@/components/ui/CardHoverEffectDemo";
+import { ProjectCards } from "@/components/ui/ProjectCards";
 import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
 
@@ -20,7 +19,7 @@ const Home = () => {
           <Skills />
         </section>
         <section id="projects-section" className="py-10">
-          <CardHoverEffectDemo />
+          <ProjectCards />
         </section>
 
         <Footer />

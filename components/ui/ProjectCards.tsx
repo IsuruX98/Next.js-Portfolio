@@ -1,6 +1,6 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 
-export function CardHoverEffectDemo() {
+export function ProjectCards() {
   return (
     <div className="xl:px-36 lg:px-20 px-12 sm:mr-0 mr-[-80px]">
       <div className="">
