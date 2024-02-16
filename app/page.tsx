@@ -9,13 +9,20 @@ import Skills from "@/components/Skills";
 const Home = () => {
   return (
     <div>
-      <FloatingNavDemo />
-
       <div>
-        <Hero />
-        <Education />
-        <Skills />
-        <CardHoverEffectDemo />
+        <section id="hero-section">
+          <Hero />
+        </section>
+        <section id="education-section" className="py-10">
+          <Education />
+        </section>
+        <section id="skills-section">
+          <Skills />
+        </section>
+        <section id="projects-section" className="py-10">
+          <CardHoverEffectDemo />
+        </section>
+
         <Footer />
       </div>
     </div>

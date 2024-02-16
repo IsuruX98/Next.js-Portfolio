@@ -12,22 +12,22 @@ export function FloatingNavDemo() {
   const navItems = [
     {
       name: "Home",
-      link: "/",
+      link: "hero-section",
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Education",
-      link: "/",
+      link: "education-section",
       icon: <IconBook className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Skills",
-      link: "/",
+      link: "skills-section",
       icon: <IconCode className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Projects",
-      link: "/",
+      link: "projects-section",
       icon: (
         <IconFolderCode className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
