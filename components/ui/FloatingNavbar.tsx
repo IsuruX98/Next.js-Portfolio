@@ -8,7 +8,7 @@ import {
   IconCode,
   IconBook,
 } from "@tabler/icons-react";
-export function FloatingNavDemo() {
+export function FloatingNav() {
   const navItems = [
     {
       name: "Home",
