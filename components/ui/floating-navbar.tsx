@@ -7,7 +7,6 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "@/utils/cn";
-import Link from "next/link";
 import { ModeToggle } from "../ModeToggle";
 import { Link as ScrollLink } from "react-scroll";
 

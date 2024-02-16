@@ -88,23 +88,21 @@ export const HoverEffect = ({ className }: { className?: string }) => {
 
   return (
     <div
-      className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  py-10",
-        className
-      )}
+      className={cn("grid grid-flow-col py-10 overflow-x-auto ", className)}
+      style={{ width: "100%", scrollbarWidth: "none", msOverflowStyle: "none" }}
     >
       {projects.map((item, idx) => (
         <Link
           href={item?.link}
           key={item?.link}
-          className="relative group  block p-2 h-full w-full"
+          className="relative group  block p-2 h-full md:w-[50vh] w-[40vh]"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-ful bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -121,7 +119,9 @@ export const HoverEffect = ({ className }: { className?: string }) => {
           <Card>
             <Image src={item.img} alt={""} className="rounded-2xl" />
             <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+            <CardDescription className="text-black dark:text-gray-300">
+              {item.description}
+            </CardDescription>
           </Card>
         </Link>
       ))}

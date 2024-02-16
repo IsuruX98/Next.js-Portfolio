@@ -35,7 +35,7 @@ import gitLogo from "../assets/logo/git.jpg";
 
 const Skills = () => {
   return (
-    <div className="xl:px-36 lg:px-20 px-12 py-28 sm:mr-0 mr-[-80px]">
+    <div className="xl:px-36 lg:px-20 px-12 py-16 sm:mr-0 mr-[-80px]">
       <div className="mb-16">
         <h1 className="text-[16px] mb-4">SKILLS</h1>
         <div className="text-4xl font-extrabold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">

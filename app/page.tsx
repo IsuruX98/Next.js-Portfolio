@@ -12,13 +12,13 @@ const Home = () => {
         <section id="hero-section">
           <Hero />
         </section>
-        <section id="education-section" className="py-10">
+        <section id="education-section" className="py-16">
           <Education />
         </section>
         <section id="skills-section">
           <Skills />
         </section>
-        <section id="projects-section" className="py-10">
+        <section id="projects-section" className="py-12">
           <ProjectCards />
         </section>
 

@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Isuru Madusanka",
-  description: "Portfolio next app",
+  description: "Portfolio next app styled using tailwind css",
 };
 
 export default function RootLayout({

@@ -1,13 +1,12 @@
-import React from "react";
 import image from "../assets/images/profile.png";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2 2xl:py-10 xl:py-4 lg:pt-20 sm:mr-0 mr-[-80px]">
+    <div className="grid lg:grid-cols-2 sm:mr-0 mr-[-80px] xl:pt-0 lg:pt-20 ">
       <div className="flex flex-col justify-center">
         <div className="flex flex-col gap-8 xl:px-36 lg:px-20 px-12 lg:pt-0 pt-32">
-          <div className="text-6xl font-extrabold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
+          <div className="xl:text-6xl text-4xl font-extrabold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
             Isuru Madusanka
             <div className="relative">
               {/* Gradients */}
@@ -18,7 +17,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div>
+          <div className="text-sm">
             As an intern software engineer at CreativeHub Global, I'm pursuing a
             BSc.Special (Hons) in Information Technology, specializing in
             Software Engineering. At CreativeHub, I leverage ReactJS, Next.js,
@@ -38,9 +37,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="p-16">
-        <div className="flex flex-col items-center justify-center">
-          <Image src={image} alt={"profile"} />
+      <div className="flex flex-col justify-center">
+        <div>
+          <Image src={image} alt={"profile"} className="p-20" />
         </div>
       </div>
     </div>

@@ -1,6 +1,13 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Education = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   const timelineData = [
     {
       date: "2021 - Present",
@@ -41,9 +48,12 @@ const Education = () => {
         </div>
       </div>
 
-      <div className="space-y-8 w-full relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+      <div
+        className="space-y-8 w-full relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent"
+        data-aos="fade-up"
+      >
         {timelineData.map((item, index) => (
-          <div key={index} className="relative">
+          <div key={index} className="relative" data-aos="fade-up">
             <div className="md:flex items-center md:space-x-4 mb-3">
               <div className="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow md:order-1 dark:bg-gray-800">
@@ -68,7 +78,7 @@ const Education = () => {
                 </span>
               </div>
             </div>
-            <div className="bg-white p-4 rounded border border-black text-slate-500 shadow ml-14 md:ml-44 dark:bg-gray-950 dark:border-gray-700 dark:text-gray-300">
+            <div className="bg-white p-4 rounded border border-black text-black shadow ml-14 md:ml-44 dark:bg-gray-950 dark:border-gray-700 dark:text-gray-300">
               {item.description}
             </div>
           </div>
