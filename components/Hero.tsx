@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="grid lg:grid-cols-2 sm:mr-0 mr-[-80px] xl:pt-0 lg:pt-20 ">
+    <div className="grid lg:grid-cols-2 xl:pt-0 lg:pt-20 ">
       <div className="flex flex-col justify-center">
         <div className="flex flex-col gap-8 xl:px-36 lg:px-20 px-12 lg:pt-0 pt-32">
           <div className="xl:text-6xl text-4xl font-extrabold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">

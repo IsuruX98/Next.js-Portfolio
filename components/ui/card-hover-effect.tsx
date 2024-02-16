@@ -95,7 +95,7 @@ export const HoverEffect = ({ className }: { className?: string }) => {
         <Link
           href={item?.link}
           key={item?.link}
-          className="relative group  block p-2 h-full md:w-[50vh] w-[40vh]"
+          className="relative group  block p-2 h-full md:w-[50vh] w-[35vh]"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
