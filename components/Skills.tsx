@@ -3,35 +3,36 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 
 // Import images
-import reactLogo from "../assets/logo/react.jpg";
-import javaLogo from "../assets/logo/java.png";
-import bootstrapLogo from "../assets/logo/bootstrap.png";
-import cssLogo from "../assets/logo/css.png";
-import expressjsLogo from "../assets/logo/expressjs.png";
+import reactLogo from "../assets/logo/react.webp";
+import javaLogo from "../assets/logo/java.webp";
+import bootstrapLogo from "../assets/logo/bootstrap.webp";
+import cssLogo from "../assets/logo/css.webp";
+import expressjsLogo from "../assets/logo/expressjs.webp";
 import htmlLogo from "../assets/logo/html.webp";
-import javascriptLogo from "../assets/logo/javascript.jpg";
-import koaLogo from "../assets/logo/koa.png";
-import kotlinLogo from "../assets/logo/kotlin.png";
-import laravelLogo from "../assets/logo/Laravel.jpg";
-import mernLogo from "../assets/logo/mern.png";
-import mongoLogo from "../assets/logo/mongo.png";
-import mysqlLogo from "../assets/logo/mysql.jpg";
+import reactNative from "../assets/logo/IMG_1043.webp";
+import javascriptLogo from "../assets/logo/javascript.webp";
+import koaLogo from "../assets/logo/koa.webp";
+import kotlinLogo from "../assets/logo/kotlin.webp";
+import laravelLogo from "../assets/logo/Laravel.webp";
+import mernLogo from "../assets/logo/mern.webp";
+import mongoLogo from "../assets/logo/mongo.webp";
+import mysqlLogo from "../assets/logo/mysql.webp";
 import nextjsLogo from "../assets/logo/nextjs.webp";
-import nodejsLogo from "../assets/logo/nodejs.png";
-import phpLogo from "../assets/logo/php.png";
-import pythonLogo from "../assets/logo/python.png";
-import springbootLogo from "../assets/logo/springboot.png";
+import nodejsLogo from "../assets/logo/nodejs.webp";
+import phpLogo from "../assets/logo/php.webp";
+import pythonLogo from "../assets/logo/python.webp";
+import springbootLogo from "../assets/logo/springboot.webp";
 import tailwindLogo from "../assets/logo/tailwind.webp";
-import vscodeLogo from "../assets/logo/vscode.png";
-import webstormLogo from "../assets/logo/webstorm.png";
-import intellijLogo from "../assets/logo/ij.jpg";
-import postmanLogo from "../assets/logo/postman.jpg";
-import figmaLogo from "../assets/logo/figma.jpg";
-import canvaLogo from "../assets/logo/canva.jpg";
-import androidStudioLogo from "../assets/logo/as.png";
-import pcLogo from "../assets/logo/pc.png";
-import githubLogo from "../assets/logo/github.jpg";
-import gitLogo from "../assets/logo/git.jpg";
+import vscodeLogo from "../assets/logo/vscode.webp";
+import webstormLogo from "../assets/logo/webstorm.webp";
+import intellijLogo from "../assets/logo/ij.webp";
+import postmanLogo from "../assets/logo/postman.webp";
+import figmaLogo from "../assets/logo/figma.webp";
+import canvaLogo from "../assets/logo/canva.webp";
+import androidStudioLogo from "../assets/logo/as.webp";
+import pcLogo from "../assets/logo/pc.webp";
+import githubLogo from "../assets/logo/github.webp";
+import gitLogo from "../assets/logo/git.webp";
 
 const Skills = () => {
   return (
@@ -53,6 +54,7 @@ const Skills = () => {
               { src: cssLogo, alt: "CSS" },
               { src: expressjsLogo, alt: "Express.js" },
               { src: htmlLogo, alt: "HTML" },
+              { src: reactNative, alt: "reactNative" },
               { src: javascriptLogo, alt: "JavaScript" },
               { src: koaLogo, alt: "Koa" },
               { src: kotlinLogo, alt: "Kotlin" },
@@ -71,7 +73,7 @@ const Skills = () => {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  className="w-32 h-32 object-contain"
+                  className="w-28 h-28 object-contain"
                 />
               </div>
             ))}
