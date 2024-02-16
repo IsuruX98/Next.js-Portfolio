@@ -1,7 +1,16 @@
+"use client";
 import image from "../assets/images/profile.png";
 import Image from "next/image";
 
+const cvGoogleDriveLink =
+  "https://drive.usercontent.google.com/u/0/uc?id=1IiQLEVRi-OzZUHeYqoQJ0a-qSgO6yvrQ&export=download";
+
 const Hero = () => {
+  const handleDownloadCV = () => {
+    // Triggering the download
+    window.open(cvGoogleDriveLink, "_blank");
+  };
+
   return (
     <div className="grid lg:grid-cols-2 sm:mr-0 mr-[-80px] xl:pt-0 lg:pt-20 ">
       <div className="flex flex-col justify-center">
@@ -28,7 +37,7 @@ const Hero = () => {
             dynamic field.
           </div>
           <div>
-            <button className="p-[3px] relative">
+            <button className="p-[3px] relative" onClick={handleDownloadCV}>
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
               <div className="px-8 py-2  dark:bg-black  rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
                 Download CV
